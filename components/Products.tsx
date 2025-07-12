@@ -1,3 +1,5 @@
+import { blogPosts } from '@/data'
+import Link from 'next/link'
 import React from 'react'
 
 const Products = () => {
@@ -9,8 +11,21 @@ const Products = () => {
         </div>
       </aside>
 
-      <main className="w-full min-h-dvh grid grid-cols-2 sm:grid-cols-3">
-        <div className="w-full h-80 rounded-2xl bg-amazon-600"></div>
+      <main className="w-full min-h-dvh grid grid-cols-2 gap-3 sm:grid-cols-2">
+        {
+            blogPosts.map(({title ,slug},i)=>(
+                <div key={i} className="w-full h-full rounded-2xl flex flex-col justify-between">
+                    <p></p>
+                    <div className="">
+                        <Link href={`/blog/${slug}`}>
+                        <h1>{title}</h1>
+
+                        </Link>
+                    </div>
+                </div>
+
+            ))
+        }
       </main>
 
       <aside className=" hidden lg:block">
