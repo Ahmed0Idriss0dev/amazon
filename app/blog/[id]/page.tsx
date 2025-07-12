@@ -3,11 +3,11 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 interface PageProps {
-  params: { id: string };
+  params:  Promise<{ id: string }>;
 }
 
 export default async function PostPage({ params }: PageProps) {
-  const { id } = params;
+  const { id } = await params;
   const blog= blogPosts.find((item)=> item.slug ===id)
   console.log(blog)
   return (
