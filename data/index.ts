@@ -12,7 +12,7 @@ export const blogPosts :blogdata[] = [
     content: `
 ## 1. Amazon Smart Plug
 
-![Amazon Smart Plug](https://m.media-amazon.com/images/I/71zM3z5X5XL._AC_SL1500_.jpg)
+![Amazon Smart Plug](https://m.media-amazon.com/images/I/61mNHFdgj3L._SX466_.jpg)
 
 **Features:**
 - Works with Alexa and Google Assistant
@@ -30,7 +30,7 @@ export const blogPosts :blogdata[] = [
 
 ## 2. Kasa Smart Plug HS103P4
 
-![Kasa Smart Plug HS103P4](https://m.media-amazon.com/images/I/81cXk5v6h+L._AC_SL1500_.jpg)
+![Kasa Smart Plug HS103P4](https://m.media-amazon.com/images/I/71HJXTL4bNL._SY445_.jpg)
 
 **Features:**
 - 15 Amp capacity

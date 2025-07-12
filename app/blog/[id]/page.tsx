@@ -12,7 +12,7 @@ export default async function PostPage({ params }: PageProps) {
   console.log(blog)
   return (
    <div>
-    <div className="mx-auto w-full sm:w-1/2">
+    <div className="mx-auto px-5 w-full sm:w-1/2">
    <h1 className='text-3xl font-bold'>{blog?.title} </h1>
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
