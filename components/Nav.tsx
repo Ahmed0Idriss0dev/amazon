@@ -9,7 +9,6 @@ const Navbar = () => {
         <Logo/>
         {/* Navigation Links */}
         <div className="space-x-6 text-sm hidden md:flex">
-          <Link href="/" className="text-gray-600 hover:text-blue-500">Home</Link>
           <Link href="/about" className="text-gray-600 hover:text-amazon-500">About</Link>
           <Link href="/contact" className="text-gray-600 hover:text-amazon-500">Contact</Link>
           <Link href="/privacy-policy" className="text-gray-600 hover:text-amazon-500">Privacy Policy</Link>
