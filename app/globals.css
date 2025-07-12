@@ -10,14 +10,34 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-dark-50: #f5f7fa;
+--color-dark-100: #eaeef4;
+--color-dark-200: #d0dbe7;
+--color-dark-300: #a7bdd2;
+--color-dark-400: #789ab8;
+--color-dark-500: #577da0;
+--color-dark-600: #446485;
+--color-dark-700: #38526c;
+--color-dark-800: #31455b;
+--color-dark-900: #2d3c4d;
+--color-dark-950: #161d26;
+--color-amazon-50: #fff6ed;
+--color-amazon-100: #feebd6;
+--color-amazon-200: #fcd4ac;
+--color-amazon-300: #f9b578;
+--color-amazon-400: #f68c41;
+--color-amazon-500: #f36f21;
+--color-amazon-600: #e45212;
+--color-amazon-700: #bd3c11;
+--color-amazon-800: #963116;
+--color-amazon-900: #792a15;
+--color-amazon-950: #411309;
+
+
+
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   background: var(--background);
