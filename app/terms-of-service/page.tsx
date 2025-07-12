@@ -50,8 +50,8 @@ export default function TermsOfServicePage() {
       <h2 className="text-xl font-semibold mt-8 mb-2">8. Contact Us</h2>
       <p>
         If you have questions or concerns about these Terms, you can contact us at:{' '}
-        <a href="mailto:your@email.com" className="text-blue-600 hover:underline">
-          your@email.com
+        <a href="mailto:webocamw224@gmail.com" className="text-amazon-600 hover:underline">
+          webocamw224@gmail.com
         </a>
       </p>
     </main>
